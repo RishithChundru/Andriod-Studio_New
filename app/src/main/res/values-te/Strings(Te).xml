@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">అప్లికేషన్ పేరు</string>
+    <string name="greeting">హలో ప్రపంచం</string>
+    <string name="change_language">భాషను మార్చండి</string>
+</resources>
