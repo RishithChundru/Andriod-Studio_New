@@ -18,6 +18,7 @@ class Snackbar : AppCompatActivity() {
         bsnack.setOnClickListener {
             view -> Snackbar.make(view, "This is snackbar", Snackbar.LENGTH_LONG).setAction("undo"){
             Toast.makeText(this, "hello i am toast", Toast.LENGTH_LONG).show()
+            bsnack.text="Snack Activated"
         }.show()
         }
     }

@@ -8,12 +8,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-/*class intentrr : AppCompatActivity() {
+class Intent_rr : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_intentrr)
+        setContentView(R.layout.activity_intent_rr)
         var t1=findViewById<TextView>(R.id.editTextText4)
         var t2=findViewById<TextView>(R.id.editTextText5)
         var a=intent.getStringExtra("key")
@@ -21,4 +21,4 @@ import androidx.core.view.WindowInsetsCompat
         t2.text=b
         t1.text=a
     }
-}*/
+}
