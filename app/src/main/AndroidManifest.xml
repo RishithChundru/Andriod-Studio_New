@@ -13,11 +13,8 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".profile"
-            android:exported="false" />
-        <activity
-            android:name="com.example.andriodstudioedit.MyProfile"
-            android:exported="true" >
+            android:name=".AppChooserDemo"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
