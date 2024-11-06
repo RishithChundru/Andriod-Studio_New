@@ -3,18 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools">
     <!-- For PermissionDemo file -->
     <!--  -->
-<!--    <uses-feature-->
-<!--        android:name="android.hardware.camera"-->
-<!--        android:required="false" />-->
-<!--    <uses-permission android:name="android.permission.CAMERA" />-->
-<!--    <uses-feature-->
-<!--        android:name="android.hardware.bluetooth"-->
-<!--        android:required="false" />-->
-<!--    <uses-permission android:name="android.permission.BLUETOOTH" />-->
-<!---->
-
+    <!-- <uses-feature -->
+    <!-- android:name="android.hardware.camera" -->
+    <!-- android:required="false" /> -->
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <!-- <uses-feature -->
+    <!-- android:name="android.hardware.bluetooth" -->
+    <!-- android:required="false" /> -->
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH" /> -->
+    <!--  -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.CAMERA"
+    <uses-permission
+        android:name="android.permission.CAMERA"
         tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
@@ -29,7 +29,7 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".AllPermissions"
+            android:name=".Alert_Dialog"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
