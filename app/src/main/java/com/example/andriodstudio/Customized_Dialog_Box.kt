@@ -25,7 +25,6 @@ class Customized_Dialog_Box : AppCompatActivity() {
             b.setPositiveButton("Subscribe"){ dialog, _ ->
                 val e=d.findViewById<EditText>(R.id.editTextText3)
                 val email=e.text.toString()
-
                 if(email.isNotBlank()){
                     Toast.makeText(this,"Subscribed with: $email",Toast.LENGTH_SHORT).show()
                 }

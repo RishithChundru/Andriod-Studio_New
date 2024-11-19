@@ -1,9 +1,7 @@
 package com.example.andriodstudio
 
-import android.Manifest
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.widget.ListView
 import android.os.Bundle
 import android.provider.MediaStore
@@ -11,21 +9,16 @@ import android.view.ContextMenu
 import android.view.MenuItem
 import android.view.View
 import android.widget.ArrayAdapter
-import android.widget.Button
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
-class practice : AppCompatActivity() {
+class contextmenu_2 : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_practice)
+        setContentView(R.layout.activity_context_menu_2)
         val items= listOf("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
         val listView:ListView=findViewById(R.id.myListView5)
 
@@ -51,7 +44,7 @@ class practice : AppCompatActivity() {
     ) {
         super.onCreateContextMenu(menu, v, menuInfo)
         // inflate the context menu layout from XML
-        menuInflater.inflate(R.menu.practice,menu)
+        menuInflater.inflate(R.menu.contextmenu_2,menu)
         menu?.setHeaderTitle("Select an action")
     }
 
