@@ -1,6 +1,9 @@
 package com.example.andriodstudio
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +14,20 @@ class mini_Zomato : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_mini_zomato)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        var a=findViewById<Button>(R.id.button21)
+        var b=findViewById<Button>(R.id.button22)
+        var c=findViewById<Button>(R.id.button23)
+        a.setOnClickListener{
+            val i1 = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.zomato.com/phagwara/delivery?dishv2_id=2840&category=1"))
+            startActivity(i1)
+        }
+        b.setOnClickListener{
+            val i2 = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.zomato.com/phagwara/delivery?dishv2_id=53385&category=1"))
+            startActivity(i2)
+        }
+        c.setOnClickListener{
+            val i3 = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.zomato.com/phagwara/delivery/dish-tea"))
+            startActivity(i3)
         }
     }
 }

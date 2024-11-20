@@ -40,7 +40,7 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".ca"
+            android:name=".mini_Zomato"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
