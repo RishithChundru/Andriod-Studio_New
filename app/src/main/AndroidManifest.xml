@@ -23,11 +23,6 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <uses-feature
-        android:name="android.hardware.bluetooth"
-        android:required="false" />
-
-    <uses-permission android:name="android.permission.BLUETOOTH" />
 
     <application
         android:allowBackup="true"
@@ -40,7 +35,7 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".mini_Zomato"
+            android:name=".option_menu"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
