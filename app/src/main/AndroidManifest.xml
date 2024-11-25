@@ -34,7 +34,10 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".Spinner"
+            android:name=".Log"
+            android:exported="false" />
+        <activity
+            android:name=".Localization_2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
