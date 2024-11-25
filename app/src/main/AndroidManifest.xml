@@ -34,10 +34,10 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".Log"
+            android:name=".Intent_class"
             android:exported="false" />
         <activity
-            android:name=".Localization_2"
+            android:name=".LogEntry"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

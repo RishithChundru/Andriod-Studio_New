@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मेरा ऐप</string>
+    <string name="greeting">हिंदी</string>
+    <string name="change_language">भाषा चुनें</string>
+
+</resources>
