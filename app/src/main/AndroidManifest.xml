@@ -43,8 +43,11 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".Appchooser"
-            android:exported="true" >
+            android:name=".optionMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Customized_Dialog_Box"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
