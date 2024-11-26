@@ -21,13 +21,13 @@ class practice : AppCompatActivity() {
         var b=findViewById<EditText>(R.id.editTextText7)
         var btn=findViewById<Button>(R.id.button29)
         btn.setOnClickListener{
-            var x= Intent(this,Teacher::class.java)
             var y=a.text.toString()
             var z=b.text.toString()
-            if(a.equals("Rishith")&& b.equals("Rishith")){
+            var x= Intent(this,Teacher::class.java)
+            if(y=="Rishith"&& z=="Rishith" ){
                 x.putExtra("key",y)
-                x.putExtra("key1",z)
                 startActivity(x);
+                Toast.makeText(this,"Login successfully!",Toast.LENGTH_SHORT).show()
             }
             else{
                 Toast.makeText(this,"Wrong credentials!!\n Try Again",Toast.LENGTH_SHORT).show()

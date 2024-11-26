@@ -29,11 +29,11 @@ class ActionBar : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when(item.itemId){
             R.id.s1->{
-                Toast.makeText(this,"Settings clicked",Toast.LENGTH_SHORT)
+                Toast.makeText(this,"Settings clicked",Toast.LENGTH_SHORT).show()
                 true
             }
             R.id.s2->{
-                Toast.makeText(this,"About us",Toast.LENGTH_SHORT)
+                Toast.makeText(this,"About us",Toast.LENGTH_SHORT).show()
                 true
             }
             else -> super.onOptionsItemSelected(item)
