@@ -25,6 +25,8 @@ class record_audio_permission : AppCompatActivity() {
                 startActivity(intent)
 //                val intent = Intent(android.provider.Settings.ACTION_BLUETOOTH_SETTINGS)
 //                startActivity(intent)
+//                val intent = Intent(Intent.ACTION_RECORD_AUDIO)
+//                startActivity(intent)
             }
             else{
                 ActivityCompat.requestPermissions(this, arrayOf( android.Manifest.permission.READ_EXTERNAL_STORAGE),c)
@@ -42,6 +44,8 @@ class record_audio_permission : AppCompatActivity() {
 //                val intent=Intent(Intent.ACTION_PICK,ContactsContract.Contacts.CONTENT_URI)
 //                startActivity(intent)
 //                val intent = Intent(android.provider.Settings.ACTION_BLUETOOTH_SETTINGS)
+//                startActivity(intent)
+//                val intent = Intent(Intent.ACTION_RECORD_AUDIO)
 //                startActivity(intent)
                 val intent=Intent(Intent.ACTION_PICK,MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
                 startActivity(intent)
