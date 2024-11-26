@@ -22,6 +22,8 @@
         android:required="false" />
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.MANAGE_DEVICE_POLICY_MICROPHONE" />
 
     <application
         android:allowBackup="true"
@@ -34,10 +36,13 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".Intent_class"
+            android:name=".Intent_login_2"
             android:exported="false" />
         <activity
-            android:name=".LogEntry"
+            android:name=".Intent_login_1"
+            android:exported="false" />
+        <activity
+            android:name=".Intent_class"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,6 +50,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Intent_class_2"
+            android:exported="true" />
     </application>
 
 </manifest>

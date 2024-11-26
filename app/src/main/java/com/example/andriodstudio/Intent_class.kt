@@ -1,6 +1,9 @@
 package com.example.andriodstudio
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +14,13 @@ class Intent_class : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_intent_class)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        var a=findViewById<EditText>(R.id.etInput)
+        var b=findViewById<Button>(R.id.btnSend)
+        b.setOnClickListener{
+            val input=a.text.toString()
+            val intent= Intent(this,Intent_class_2::class.java)
+            intent.putExtra("Extra Message",input)
+            startActivity(intent)
         }
     }
 }
