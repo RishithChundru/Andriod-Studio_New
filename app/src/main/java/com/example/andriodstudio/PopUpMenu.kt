@@ -27,7 +27,7 @@ class PopUpMenu : AppCompatActivity() {
             p2.setOnMenuItemClickListener { item: MenuItem ->
                 when(item.itemId) {
                     R.id.share -> {
-                        Toast.makeText(this, "Share Button Clicked",Toast.LENGTH_SHORT)
+                        Toast.makeText(this, "Share Button Clicked",Toast.LENGTH_SHORT).show()
                         val send: Intent=Intent().apply{
                             action=Intent.ACTION_SEND
                             putExtra(Intent.EXTRA_TEXT, "copylink")
@@ -38,7 +38,7 @@ class PopUpMenu : AppCompatActivity() {
                         true
                     }
                     R.id.delete -> {
-                        Toast.makeText(this,"Delete Button Clicked",Toast.LENGTH_SHORT)
+                        Toast.makeText(this,"Delete Button Clicked",Toast.LENGTH_SHORT).show()
                         true
                     }
                     else -> false
