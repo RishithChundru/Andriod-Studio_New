@@ -17,7 +17,7 @@ class ActionBar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_action_bar)
-        val t: Toolbar=findViewById(R.id.toolbar)
+        val t=findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(t)
     }
 
