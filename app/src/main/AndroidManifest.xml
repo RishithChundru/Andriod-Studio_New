@@ -33,9 +33,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
-
         <activity
-            android:name=".ActionBar"
+            android:name=".storage_permission"
+            android:exported="false" />
+        <activity
+            android:name=".camera_permission"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
