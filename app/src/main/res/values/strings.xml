@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">App Name</string>
     <string name="greeting">Hello World</string>
     <string name="change_language">Change Language</string>
+    <string name="greet" tools:ignore="MissingTranslation">Hello World</string>
+    <string name="change" tools:ignore="MissingTranslation">Change Language</string>
 </resources>
 

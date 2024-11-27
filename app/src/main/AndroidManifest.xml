@@ -43,7 +43,7 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".PopUpMenu"
+            android:name=".change_language"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
