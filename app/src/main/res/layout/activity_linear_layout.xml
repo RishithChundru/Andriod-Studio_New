@@ -9,7 +9,8 @@
         android:id="@+id/textView12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello, Everyone" />
+        android:text="Hello, Everyone"
+        android:textSize="30dp"/>
 
     <Button
         android:id="@+id/button36"
