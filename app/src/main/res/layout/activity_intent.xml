@@ -9,14 +9,14 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Username"
+        android:hint="Username"
         android:textSize="40dp"/>
 
     <EditText
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Password"
+        android:hint="Password"
         android:textSize="40dp"/>
 
     <Button

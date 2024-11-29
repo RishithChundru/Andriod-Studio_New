@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize colorPrimary for the Action Bar -->
+        <item name="colorPrimary">#6200EE</item> <!-- Purple -->
+        <item name="colorPrimaryDark">#3700B3</item> <!-- Dark Purple -->
+        <item name="colorAccent">#03DAC5</item> <!-- Teal -->
+        <item name="android:textColorPrimary">#FFFFFF</item> <!-- Action bar title color -->
+    </style>
+</resources>

@@ -43,11 +43,8 @@
         android:theme="@style/Theme.AndriodStudio"
         tools:targetApi="31">
         <activity
-            android:name=".CheckBox"
-            android:exported="false" />
-        <activity
-            android:name=".radio_button"
-            android:exported="true">
+            android:name=".ActionBar"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
